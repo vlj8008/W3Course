@@ -1,0 +1,14 @@
+C:\Programming\CSharp\W3Course\W3Course\bin\Debug\netcoreapp3.1\W3Course.exe
+C:\Programming\CSharp\W3Course\W3Course\bin\Debug\netcoreapp3.1\W3Course.deps.json
+C:\Programming\CSharp\W3Course\W3Course\bin\Debug\netcoreapp3.1\W3Course.runtimeconfig.json
+C:\Programming\CSharp\W3Course\W3Course\bin\Debug\netcoreapp3.1\W3Course.runtimeconfig.dev.json
+C:\Programming\CSharp\W3Course\W3Course\bin\Debug\netcoreapp3.1\W3Course.dll
+C:\Programming\CSharp\W3Course\W3Course\bin\Debug\netcoreapp3.1\W3Course.pdb
+C:\Programming\CSharp\W3Course\W3Course\obj\Debug\netcoreapp3.1\W3Course.csproj.AssemblyReference.cache
+C:\Programming\CSharp\W3Course\W3Course\obj\Debug\netcoreapp3.1\W3Course.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programming\CSharp\W3Course\W3Course\obj\Debug\netcoreapp3.1\W3Course.AssemblyInfoInputs.cache
+C:\Programming\CSharp\W3Course\W3Course\obj\Debug\netcoreapp3.1\W3Course.AssemblyInfo.cs
+C:\Programming\CSharp\W3Course\W3Course\obj\Debug\netcoreapp3.1\W3Course.csproj.CoreCompileInputs.cache
+C:\Programming\CSharp\W3Course\W3Course\obj\Debug\netcoreapp3.1\W3Course.dll
+C:\Programming\CSharp\W3Course\W3Course\obj\Debug\netcoreapp3.1\W3Course.pdb
+C:\Programming\CSharp\W3Course\W3Course\obj\Debug\netcoreapp3.1\W3Course.genruntimeconfig.cache

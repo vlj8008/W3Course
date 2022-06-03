@@ -7,7 +7,6 @@ namespace W3Course
     {
         static void Main(string[] args)
         {
-            /*
 
             //Declaring variables:
 
@@ -24,6 +23,8 @@ namespace W3Course
            
             Console.WriteLine(letter);
 
+            //Concatenating
+
             string fName;
             string lName;
             fName = "Vicky";
@@ -31,6 +32,8 @@ namespace W3Course
             string fullName;
             fullName = fName + lName;
             Console.WriteLine("Welcome " + fullName);
+
+            //Adding integers together
 
             int x = 6, y = 4, a = 1;
             Console.WriteLine(x + y + a);
@@ -57,7 +60,7 @@ namespace W3Course
             Console.WriteLine(myDouble); //output is 9.8956214368
             Console.WriteLine(myInt1);// output is 9
 
-            //Type converstion methods
+            //Type conversion methods
 
             int myInt2 = 4;
             double myDouble1 = 5.25;
@@ -67,6 +70,8 @@ namespace W3Course
             Console.WriteLine(Convert.ToDouble(myInt2));//output 4
             Console.WriteLine(Convert.ToInt32(myDouble1));// output 5
             Console.WriteLine(Convert.ToString(myBool));// output true (as string)
+
+            //User Input
 
             Console.WriteLine("Enter your user name:");
             string userName = Console.ReadLine(); //always returns a string. 
@@ -110,12 +115,12 @@ namespace W3Course
             string Name = "vicky"; //actually an object
             Console.WriteLine("The length of vicky is " + Name.Length);
 
-            string ans = Name.ToUpper();
-            Console.WriteLine(ans);
+            string ans1 = Name.ToUpper();
+            Console.WriteLine(ans1);
 
             string LName = " jones";
-            string fullName = string.Concat(Name, LName);
-            Console.WriteLine(fullName);
+            string fullName1 = string.Concat(Name, LName);
+            Console.WriteLine(fullName1);
 
             //String Interpolation
 
@@ -148,10 +153,10 @@ namespace W3Course
             string LastSent = fullSent.Substring(charPos);
             Console.WriteLine(LastSent);
 
-            string fName = "Vicky";
-            string lName = "Jones";
+            string fName2 = "Vicky";
+            string lName2 = "Jones";
 
-            string fullName1 = fName + lName;
+            string fullName2 = fName2 + lName2;
 
             int charPosi = fullName1.IndexOf("J");
             Console.WriteLine(fullName1.Substring(charPosi));
@@ -200,7 +205,7 @@ namespace W3Course
             {
                 Console.WriteLine("a is not equal to b");
             }
-            */
+            
             // Else/if statement
 
             int outsideTemp = 79;
@@ -223,6 +228,7 @@ namespace W3Course
             }
 
             // Ternary function
+
             string answer = (outsideTemp == insideTemp) ? "Outside temp same as inside" : "Outside temp not same as inside";
 
             string answer2 = (outsideTemp > insideTemp) ? "It is hotter outside" : "It is hotter inside";
@@ -235,6 +241,8 @@ namespace W3Course
             Console.WriteLine(isEven);
 
             Console.WriteLine((num3 % 3 == 0) ? true : false);
+
+            // Switch statement
 
             switch (num3)
             {
@@ -274,22 +282,22 @@ namespace W3Course
                     Console.WriteLine("It appears there was no bingo");
                     break;
 
-
-
             }
 
+            //While statement
 
-            /*int i = 0;
+            int i = 0;
 
             while (i < 5)
             {
                 Console.WriteLine(i);
                 i++;
             }
-            */
+            
 
             //Do/While loop (variant of while loop. Notice how it executes at least once,
             //because conditions are tested after.)
+
             int i = 0;
             do
             {
@@ -306,6 +314,8 @@ namespace W3Course
                 Console.WriteLine(a); // output 0,2,4,6,8
             }
 
+            // Arrays
+
             string[] horses = { "Phar Lap","Bobby","Jumpie","Red"};
 
             Array.Sort(horses);
@@ -314,6 +324,8 @@ namespace W3Course
                 Console.WriteLine(horse);
             }
 
+            //Array Methods
+
 
             int[] numbers = { 2, 22, 101, 33, 12 };
             Console.WriteLine(numbers.Max());
@@ -321,11 +333,14 @@ namespace W3Course
 
             Array.Sort(numbers);
 
+            // Iterating through an array
+
             for (int c = 0; c <numbers.Length; c++)
             {
                 Console.WriteLine(c);
             }
 
+            // Changing an element value
 
             Console.WriteLine(numbers[1]);
             numbers[0] = 1;
@@ -340,15 +355,16 @@ namespace W3Course
                 Console.WriteLine(numbers[y]);
             }
 
-            // Creating an Array
+            // Different methods for creating an Array
 
             string []cars = { "BMW", "Ford", "Toyota" };
-            string[] boats = new string[2];
+            string[] boats = new string[2];// creating an array with 2 items, to be added later.
             Console.WriteLine(boats.Length);
 
             Console.WriteLine(numbers.Length);
 
-            /*
+            //Foreach statement
+
             foreach (string item in horses)
             {
                 Console.WriteLine(item);
@@ -378,7 +394,7 @@ namespace W3Course
                 Console.WriteLine(x);
                 x++;
             }
-            */
+            
                     
         }
 
